@@ -97,17 +97,17 @@
 }
 
 /* Responsive Stuff */
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 35.5em) {
   /* Stack anything that isn’t full-width on smaller screens 
      and doesn't provide the no-stacking-on-mobiles class */
   .grid:not(.no-stacking-on-mobiles) > .unit {
     width: 100% !important;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
   }
   .unit .grid .unit {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0em;
+    padding-right: 0em;
   }
 
   /* Sometimes, you just want to be different on small screens */
@@ -123,10 +123,10 @@
 }
 
 /* Expand the wrap a bit further on larger screens */
-@media screen and (min-width: 1180px) {
+@media screen and (min-width: 73.75em) {
   .wider .grid,
   .grid.wider {
-    max-width: 1180px;
+    max-width: 73.75em;
     margin: 0 auto;
   }
 }
