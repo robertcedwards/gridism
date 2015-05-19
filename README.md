@@ -56,7 +56,7 @@ Elsewise, [download the zip folder](https://github.com/cobyism/gridism/archive/g
 Add the following stylesheet to your HTML’s `<head>` section:
 
 ```html
-<link rel="stylesheet" href="components/gridism/gridism.css">
+<link rel="stylesheet" href="bower_components/gridism/gridism.css">
 ```
 
 **Note:** If you didn’t install using Bower, you need to adjust the path of CSS file to match your file structure.
@@ -73,7 +73,7 @@ Without this meta tag, mobiles and tablets might load your page as a scaled-down
 
 ## Contributing
 
-I’d :heart: to recieve contributions to this project. It doesn’t matter if it’s just a typo, or if you’re proposing an overhaul of the entire project—I’ll gladly take a look at your changes. Fork at will! :grinning:.
+I’d :heart: to receive contributions to this project. It doesn’t matter if it’s just a typo, or if you’re proposing an overhaul of the entire project—I’ll gladly take a look at your changes. Fork at will! :grinning:.
 
 ## License
 
